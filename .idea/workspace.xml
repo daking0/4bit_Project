@@ -25,7 +25,7 @@
               <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/entity/User.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="484">
-                    <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+                    <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
@@ -179,12 +179,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563677504693</updated>
       <workItem from="1563677507552" duration="563000" />
-      <workItem from="1563679490544" duration="1936000" />
+      <workItem from="1563679490544" duration="2195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2499000" />
+    <option name="totallyTimeSpent" value="2758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1254" extended-state="6" />
@@ -231,7 +231,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
