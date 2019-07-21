@@ -12,7 +12,7 @@ public class User implements Serializable {
     @Column(name = "user_UUID")
     @GeneratedValue(generator = "uuid2")
     @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    private String userUUID;
+    private Long userUUID;
 
     @Column(name = "user_ID")
     private String username;
@@ -32,11 +32,11 @@ public class User implements Serializable {
     @Column(name = "role_code")
     private String roleCode;
 
-    public String getUserUUID() {
+    public Long getUserUUID() {
         return userUUID;
     }
 
-    public void setUserUUID(String userUUID) {
+    public void setUserUUID(Long userUUID) {
         this.userUUID = userUUID;
     }
 
