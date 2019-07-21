@@ -9,9 +9,12 @@
         <module name="project_bit" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="project_bit" target="1.8" />
     </bytecodeTargetLevel>
+=======
+>>>>>>> 5670a3dc81f702eace722d4f617b613a6a05afb9
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
