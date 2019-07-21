@@ -11,6 +11,7 @@ import java.util.Date;
 @Table(name = "Article")
 public class Article implements Serializable {
 
+    @Id
     @Column(name = "article_UUID")
     @GeneratedValue(generator = "uuid2")
     @GenericGenerator(name = "uuid2", strategy = "uuid2")

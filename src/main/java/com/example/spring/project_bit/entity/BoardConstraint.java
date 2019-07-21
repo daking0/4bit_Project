@@ -24,7 +24,7 @@ public class BoardConstraint implements Serializable {
     private String constraintType;
 
     @Column(name = "board_UUID")
-    private String boardUUID;
+    private Long boardUUID;
 
 
 }
