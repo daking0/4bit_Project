@@ -14,6 +14,9 @@ public class User implements Serializable {
     @GenericGenerator(name = "uuid2", strategy = "uuid2")
     private String userUUID;
 
+    @Column(name = "user_ID")
+    private String username;
+
     @Column(name = "password")
     private String password;
 
@@ -35,6 +38,14 @@ public class User implements Serializable {
 
     public void setUserUUID(String userUUID) {
         this.userUUID = userUUID;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
