@@ -28,6 +28,7 @@ public class HW_Reply implements Serializable {
     @Column(name = "HW_reply_create_date")
     private Date hwReplyCreateDate;
 
+
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "HW_reply_update_date")
