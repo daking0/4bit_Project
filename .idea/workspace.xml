@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4c564751-dfde-4d02-b681-c206b062de42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/entity/HW_Reply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/entity/HW_Reply.java" afterDir="false" />
@@ -8,6 +9,9 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+    <list default="true" id="0def145c-d3f7-43d6-ae75-e63b4c780ba9" name="Default Changelist" comment="" />
+>>>>>>> f1fd17f89d5e091b4596d4bf38d93d821d87b172
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/entity/HW_Board.java">
@@ -124,6 +129,13 @@
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1295" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="140" />
+    <option name="width" value="1690" />
+>>>>>>> f1fd17f89d5e091b4596d4bf38d93d821d87b172
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -131,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -216,6 +229,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+>>>>>>> f1fd17f89d5e091b4596d4bf38d93d821d87b172
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -232,6 +252,7 @@
     <configuration />
   </component>
   <component name="TaskManager">
+<<<<<<< HEAD
     <task active="true" id="Default" summary="Default task">
       <changelist id="4c564751-dfde-4d02-b681-c206b062de42" name="Default Changelist" comment="" />
       <created>1563845173218</created>
@@ -251,6 +272,17 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2181208" />
+=======
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22005208" />
+>>>>>>> f1fd17f89d5e091b4596d4bf38d93d821d87b172
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -284,6 +316,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
+<<<<<<< HEAD
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -422,4 +455,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> f1fd17f89d5e091b4596d4bf38d93d821d87b172
 </project>
