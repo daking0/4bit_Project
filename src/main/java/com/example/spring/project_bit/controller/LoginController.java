@@ -26,7 +26,7 @@ public class LoginController {
         //찾은 ID 화면에 표시
         return null;
     }
-    
+
     @RequestMapping(path = "/pw/check")
     public User findPw(){
         //비밀번호 찾기
