@@ -11,6 +11,7 @@ import java.util.Date;
 @Table(name = "HW_Reply")
 public class HW_Reply implements Serializable {
 
+    @Id
     @Column(name = "HW_reply_UUID")
     @GeneratedValue(generator = "uuid2")
     @GenericGenerator(name = "uuid2", strategy = "uuid2")
@@ -26,6 +27,7 @@ public class HW_Reply implements Serializable {
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "HW_reply_create_date")
     private Date hwReplyCreateDate;
+
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
