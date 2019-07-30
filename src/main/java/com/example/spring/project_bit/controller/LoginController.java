@@ -28,7 +28,7 @@ public class LoginController {
     }
 
     @RequestMapping(path = "/pw/check")
-    public User findPw(){
+    public User findPw(String id, String email){
         //비밀번호 찾기
         return null;
     }
