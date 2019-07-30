@@ -1,33 +1,27 @@
 package com.example.spring.project_bit.entity;
 
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.GenericGenerator;
-
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "Article")
+@Table(name = "article")
 public class Article implements Serializable {
 
     @Id
-    @Column(name = "article_UUID")
-    @GeneratedValue(generator = "uuid2")
-    @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    private Long articleUUID;
+    @Column(name = "article_id")
+    private int articleId;
 
     @Column(name = "article_number")
     private int articleNumber;
 
     @Column(name = "article_create_date")
-    @CreationTimestamp
-    @Temporal(TemporalType.TIMESTAMP)
     private Date articleCreateDate;
 
     @Column(name = "article_update_date")
-    @CreationTimestamp
-    @Temporal(TemporalType.TIMESTAMP)
     private Date articleUpdateDate;
 
     @Column(name = "article_hits")
@@ -37,7 +31,7 @@ public class Article implements Serializable {
     private int articleLike;
 
     @Column(name = "group_id")
-    private Long groupId;
+    private int groupId;
 
     @Column(name = "depth")
     private int depth;
@@ -52,134 +46,17 @@ public class Article implements Serializable {
     private String articleType;
 
     @Column(name = "article_contents")
-    private String articleContents;
+    private String articleContents;     //Text 타입
 
-    @Column(name = "isFile")
-    private int isFile;
+    @Column(name = "isfile")
+    private int isfile;
 
-    @Column(name = "user_UUID")
-    private Long userUUID;
+    @Column(name = "user_id")       // fk(User)
+    private int userId;
 
-    @Column(name = "board_UUID")
-    private Long boardUUID;
+    @Column(name = "board_id")      //fk(board_Manager)
+    private String boardId;
 
-    public Long getArticleUUID() {
-        return articleUUID;
-    }
 
-    public void setArticleUUID(Long articleUUID) {
-        this.articleUUID = articleUUID;
-    }
 
-    public int getArticleNumber() {
-        return articleNumber;
-    }
-
-    public void setArticleNumber(int articleNumber) {
-        this.articleNumber = articleNumber;
-    }
-
-    public Date getArticleCreateDate() {
-        return articleCreateDate;
-    }
-
-    public void setArticleCreateDate(Date articleCreateDate) {
-        this.articleCreateDate = articleCreateDate;
-    }
-
-    public Date getArticleUpdateDate() {
-        return articleUpdateDate;
-    }
-
-    public void setArticleUpdateDate(Date articleUpdateDate) {
-        this.articleUpdateDate = articleUpdateDate;
-    }
-
-    public int getArticleHits() {
-        return articleHits;
-    }
-
-    public void setArticleHits(int articleHits) {
-        this.articleHits = articleHits;
-    }
-
-    public int getArticleLike() {
-        return articleLike;
-    }
-
-    public void setArticleLike(int articleLike) {
-        this.articleLike = articleLike;
-    }
-
-    public Long getGroupId() {
-        return groupId;
-    }
-
-    public void setGroupId(Long groupId) {
-        this.groupId = groupId;
-    }
-
-    public int getDepth() {
-        return depth;
-    }
-
-    public void setDepth(int depth) {
-        this.depth = depth;
-    }
-
-    public int getSequence() {
-        return sequence;
-    }
-
-    public void setSequence(int sequence) {
-        this.sequence = sequence;
-    }
-
-    public String getArticleTitle() {
-        return articleTitle;
-    }
-
-    public void setArticleTitle(String articleTitle) {
-        this.articleTitle = articleTitle;
-    }
-
-    public String getArticleType() {
-        return articleType;
-    }
-
-    public void setArticleType(String articleType) {
-        this.articleType = articleType;
-    }
-
-    public String getArticleContents() {
-        return articleContents;
-    }
-
-    public void setArticleContents(String articleContents) {
-        this.articleContents = articleContents;
-    }
-
-    public int getIsFile() {
-        return isFile;
-    }
-
-    public void setIsFile(int isFile) {
-        this.isFile = isFile;
-    }
-
-    public Long getUserUUID() {
-        return userUUID;
-    }
-
-    public void setUserUUID(Long userUUID) {
-        this.userUUID = userUUID;
-    }
-
-    public Long getBoardUUID() {
-        return boardUUID;
-    }
-
-    public void setBoardUUID(Long boardUUID) {
-        this.boardUUID = boardUUID;
-    }
 }

@@ -1,15 +1,16 @@
 package com.example.spring.project_bit.entity;
 
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.GenericGenerator;
-
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "HW_Reply")
+@Table(name = "hw_reply")
 public class HW_Reply implements Serializable {
+<<<<<<< HEAD
 
     @Id
     @Column(name = "HW_reply_UUID")
@@ -18,70 +19,40 @@ public class HW_Reply implements Serializable {
     private Long hwReplyUUID;
 
     @Column(name = "HW_reply_writer")
+=======
+//        @Column(name = "user_id")
+//        private Long userId;
+//
+//        @Column(name = "user_ID")
+//        private String username;
+//
+//        @Column(name = "password")
+
+    @Id
+    @Column(name = "hw_reply_id")
+    private int hwReplyId;
+
+    @Column(name = "hw_reply_writer")
+>>>>>>> 23ffd9167c835914bee1fe6c08a28c9b72aa0320
     private String hwReplyWriter;
 
-    @Column(name = "HW_reply_contents")
+    @Column(name = "hw_reply_contents")
     private String hwReplyContents;
 
-    @CreationTimestamp
-    @Temporal(TemporalType.TIMESTAMP)
-    @Column(name = "HW_reply_create_date")
+    @Column(name = "hw_reply_create_date")
     private Date hwReplyCreateDate;
 
+<<<<<<< HEAD
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "HW_reply_update_date")
+=======
+    @Column(name = "hw_reply_update_date")
+>>>>>>> 23ffd9167c835914bee1fe6c08a28c9b72aa0320
     private Date hwReplyUpdateDate;
 
-    @Column(name = "HW_article_UUID")
-    private Long hwArticleUUID;
+    @Column(name = "hw_article_id")         // fk (HW_Article 테이블)
+    private int hwArticleId;
 
-    public Long getHwReplyUUID() {
-        return hwReplyUUID;
-    }
-
-    public void setHwReplyUUID(Long hwReplyUUID) {
-        this.hwReplyUUID = hwReplyUUID;
-    }
-
-    public String getHwReplyWriter() {
-        return hwReplyWriter;
-    }
-
-    public void setHwReplyWriter(String hwReplyWriter) {
-        this.hwReplyWriter = hwReplyWriter;
-    }
-
-    public String getHwReplyContents() {
-        return hwReplyContents;
-    }
-
-    public void setHwReplyContents(String hwReplyContents) {
-        this.hwReplyContents = hwReplyContents;
-    }
-
-    public Date getHwReplyCreateDate() {
-        return hwReplyCreateDate;
-    }
-
-    public void setHwReplyCreateDate(Date hwReplyCreateDate) {
-        this.hwReplyCreateDate = hwReplyCreateDate;
-    }
-
-    public Date getHwReplyUpdateDate() {
-        return hwReplyUpdateDate;
-    }
-
-    public void setHwReplyUpdateDate(Date hwReplyUpdateDate) {
-        this.hwReplyUpdateDate = hwReplyUpdateDate;
-    }
-
-    public Long getHwArticleUUID() {
-        return hwArticleUUID;
-    }
-
-    public void setHwArticleUUID(Long hwArticleUUID) {
-        this.hwArticleUUID = hwArticleUUID;
-    }
 }

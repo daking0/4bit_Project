@@ -1,46 +1,23 @@
 package com.example.spring.project_bit.entity;
 
-import org.hibernate.annotations.GenericGenerator;
-
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import java.io.Serializable;
 
 @Entity
-@Table(name = "Board_Manager")
-public class Board_Manager {
+@Table(name = "board_manager")
+public class Board_Manager implements Serializable {
 
     @Id
-    @Column(name = "board_UUID")
-    @GeneratedValue(generator = "uuid2")
-    @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    private Long boardUUID;
+    @Column(name = "board_id")
+    private String boardId;
 
     @Column(name = "board_name")
-    private String boradName;
+    private String boardName;
 
-    @Column(name = "board_type_code")
-    private String boradTypeCode;
+    @Column(name = "isnotice")      // enum은 반환형이 String 이라는데..?
+    private String isnotice;
 
-    public Long getBoardUUID() {
-        return boardUUID;
-    }
-
-    public void setBoardUUID(Long boardUUID) {
-        this.boardUUID = boardUUID;
-    }
-
-    public String getBoradName() {
-        return boradName;
-    }
-
-    public void setBoradName(String boradName) {
-        this.boradName = boradName;
-    }
-
-    public String getBoradTypeCode() {
-        return boradTypeCode;
-    }
-
-    public void setBoradTypeCode(String boradTypeCode) {
-        this.boradTypeCode = boradTypeCode;
-    }
 }
