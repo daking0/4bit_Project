@@ -1,6 +1,5 @@
 package com.example.spring.project_bit.repository;
 
-import com.example.spring.project_bit.entity.User;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
