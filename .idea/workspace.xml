@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/BoardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="93" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="93" />
+            <state relative-caret-position="285">
+              <caret line="17" column="93" lean-forward="true" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -28,8 +28,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/StudyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="171">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/AssignmentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,6 +96,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/ManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/AssignmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/StudyController.java" />
       </list>
     </option>
@@ -83,11 +109,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="726" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="17" />
     <option name="y" value="35" />
     <option name="width" value="1675" />
-    <option name="height" value="853" />
+    <option name="height" value="963" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -183,15 +209,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564447728647</updated>
-      <workItem from="1564447730541" duration="5038000" />
+      <workItem from="1564447730541" duration="12357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5038000" />
+    <option name="totallyTimeSpent" value="12357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="581" y="28" width="1340" height="682" extended-state="0" />
+    <frame x="14" y="28" width="1340" height="770" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -199,9 +225,9 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info id="Learn" weight="0.32871014" />
+      <window_info id="Learn" weight="0.328125" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.44382802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22421876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -242,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/BoardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="93" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="93" />
+        <state relative-caret-position="285">
+          <caret line="17" column="93" lean-forward="true" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -254,10 +280,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/AssignmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/project_bit/controller/StudyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="171">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
