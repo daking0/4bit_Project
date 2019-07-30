@@ -2,6 +2,7 @@ package com.example.spring.project_bit.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Date;
 
@@ -73,5 +74,19 @@ public class AssignmentController {
     public void readEndedAssignmentResult(String userId, int HWId){
         // 학생별 과제 상세
         // 결과보기 클릭 시 실행되는 메서드
+    }
+
+    public void showAssignmentReplyList(String HWId, int userId, int HWArticleId){
+        // 해당 과제의 과제물 댓글 목록을 보여줌
+
+    }
+
+    public void writeAssignmentReply(String HWId, int userId, int HWArticleId){
+        // 과제물 댓글 달기
+
+    }
+
+    public void deleteAssignmentReply(String HWId, int userId, int HWArticleId){
+        // 과제물 댓글 삭제
     }
 }

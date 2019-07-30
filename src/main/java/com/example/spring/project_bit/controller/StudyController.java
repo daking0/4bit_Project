@@ -10,9 +10,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class StudyController {
 
     @RequestMapping("/roadmap")
-    public void roodMap(String id){
-        // 로드맵 리스트
+    public void showRoadMapList(int userId){
+        // 로드맵 리스트 보여주는 메서드
     }
+
+    public boolean isRoadmapUnlocked(int roadmapLast){
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     @RequestMapping("studyentstatus")
     public void studentStatus(){
