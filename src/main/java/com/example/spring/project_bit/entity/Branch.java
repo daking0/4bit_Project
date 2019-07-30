@@ -7,7 +7,7 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Entity
-@Table(name="Branch")
+@Table(name="branch")
 public class Branch implements Serializable {
 
     @Id
@@ -23,35 +23,4 @@ public class Branch implements Serializable {
     @Column(name = "branch_phone")
     private String branchPhone;
 
-    public String getBranchCode() {
-        return branchCode;
-    }
-
-    public void setBranchCode(String branchCode) {
-        this.branchCode = branchCode;
-    }
-
-    public String getBranchName() {
-        return branchName;
-    }
-
-    public void setBranchName(String branchName) {
-        this.branchName = branchName;
-    }
-
-    public String getBranchAddress() {
-        return branchAddress;
-    }
-
-    public void setBranchAddress(String branchAddress) {
-        this.branchAddress = branchAddress;
-    }
-
-    public String getBranchPhone() {
-        return branchPhone;
-    }
-
-    public void setBranchPhone(String branchPhone) {
-        this.branchPhone = branchPhone;
-    }
 }

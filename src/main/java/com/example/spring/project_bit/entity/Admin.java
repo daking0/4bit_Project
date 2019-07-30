@@ -5,41 +5,16 @@ import java.io.Serializable;
 import java.util.UUID;
 
 @Entity
-@Table(name="Admin")
+@Table(name="admin")
 public class Admin implements Serializable {
 
     @Id
-    @Column(name="admin_UUID", updatable = false, nullable = false)
-    private UUID adminId;
+    @Column(name="admin_id")
+    private int adminId;
 
     @Column(name = "branch_code")
     private String branchCode;
 
-    @Column(name = "user_UUID")
-    @JoinColumn(name = "user_UUID", referencedColumnName = "user_UUID")
+    @Column(name = "user_id")       //user fk
     private String userId;
-
-    public UUID getAdminId() {
-        return adminId;
-    }
-
-    public void setAdminId(UUID adminId) {
-        this.adminId = adminId;
-    }
-
-    public String getBranchCode() {
-        return branchCode;
-    }
-
-    public void setBranchCode(String branchCode) {
-        this.branchCode = branchCode;
-    }
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
 }

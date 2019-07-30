@@ -10,7 +10,6 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "Privilege")
-@DynamicInsert
 public class Privilege implements Serializable {
 
     @Id
@@ -19,7 +18,6 @@ public class Privilege implements Serializable {
 
     @Column(name = "privilege_name")
     private String privilegeName;
-
 
     public String getPrivilegeCode() {
         return privilegeCode;

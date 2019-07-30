@@ -9,56 +9,23 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "student")
-@DynamicInsert
 public class Student implements Serializable {
 
     @Id
-    @Column(columnDefinition = "BIGINT", name = "student_UUID", updatable = false, nullable = false)
-    private UUID studentId;
+    @Column(name = "student_id")
+    private int studentId;
 
-    @Column(name = "student_birth", nullable = false)
+    @Column(name = "student_birth")
     private String studentBirth;
 
-    @OneToMany
-    @JoinColumn(name = "user_UUID", referencedColumnName = "user_UUID")
-    private User userId;
+    @Column(name = "user_id")       // User fk
+    private int userId;
 
-    @OneToMany
-    @JoinColumn(name = "class_UUID", referencedColumnName = "class_UUID")
-    private Class classId;
+    @Column(name = "class_id")      // Class fk
+    private int classId;
 
-
-    public UUID getStudentId() {
-        return studentId;
-    }
-
-    public void setStudentId(UUID studentId) {
-        this.studentId = studentId;
-    }
-
-    public String getStudentBirth() {
-        return studentBirth;
-    }
-
-    public void setStudentBirth(String studentBirth) {
-        this.studentBirth = studentBirth;
-    }
-
-    public User getUserId() {
-        return userId;
-    }
-
-    public void setUserId(User userId) {
-        this.userId = userId;
-    }
-
-    public Class getClassId() {
-        return classId;
-    }
-
-    public void setClassId(Class classId) {
-        this.classId = classId;
-    }
+    @Column(name = "roadmap_last")
+    private int roadmapLast;
 
 
 }

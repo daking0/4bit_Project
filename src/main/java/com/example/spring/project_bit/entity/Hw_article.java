@@ -1,44 +1,35 @@
 package com.example.spring.project_bit.entity;
 
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.GenericGenerator;
-
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table
-public class Hw_article implements Serializable {
+@Table(name="hw_article")
+public class HW_Article implements Serializable {
 
-    @Column(name = "HW_article_UUID")
-    @GeneratedValue(generator = "uuid2")
-    @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    private Long hwArticleUUID;
+    @Id
+    @Column(name = "hw_article_id")
+    private int hwArticleId;
 
-    @Column(name = "HW_submit_date")
-    @CreationTimestamp
-    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name = "hw_submit_date")
     private Date hwSubmitDate;
 
-    @Column(name = "HW_update_date")
-    @CreationTimestamp
-    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name = "hw_update_date")
     private Date hwUpdateDate;
 
-    @Column(name = "HW_contents")
+    @Column(name = "hw_contents")
     private String hwContents;
 
-    @Column(name = "HW_isFile")
+    @Column(name = "hw_isfile")
     private int hwIsFile;
 
-    @Column(name = "HW_UUID")
-    @GeneratedValue(generator = "uuid2")
-    @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    private Long hwUUID;
+    @Column(name = "hw_id")     //과제 fk
+    private int hwId;
 
-    @Column(name = "student_UUID")
-    @GeneratedValue(generator = "uuid2")
-    @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    private Long studentUUID;
+    @Column(name = "student_id")    // student fk
+    private int studentId;
 }

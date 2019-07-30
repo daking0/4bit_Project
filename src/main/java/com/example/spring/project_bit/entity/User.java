@@ -9,12 +9,11 @@ import java.io.Serializable;
 @Table(name = "user")
 public class User implements Serializable {
 
-    @Column(name = "user_UUID")
-    @GeneratedValue(generator = "uuid2")
-    @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    private Long userUUID;
+    @Id
+    @Column(name = "user_id")
+    private int userId;
 
-    @Column(name = "user_ID")
+    @Column(name = "username")
     private String username;
 
     @Column(name = "password")
@@ -29,62 +28,13 @@ public class User implements Serializable {
     @Column(name = "phone")
     private String phone;
 
-    @Column(name = "role_code")
+    @Column(name = "role_code")         //role fk
     private String roleCode;
 
-    public Long getUserUUID() {
-        return userUUID;
-    }
+    @Column(name = "point_sum")
+    private int pointSum;
 
-    public void setUserUUID(Long userUUID) {
-        this.userUUID = userUUID;
-    }
+    @Column(name = "user_level")
+    private int userLevel;
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getRoleCode() {
-        return roleCode;
-    }
-
-    public void setRoleCode(String roleCode) {
-        this.roleCode = roleCode;
-    }
 }
